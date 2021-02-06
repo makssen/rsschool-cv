@@ -1,7 +1,7 @@
 ## Maksim Siankevich
 ***
 #### Contacts for communication
-**E-mail:** maks.sen.7878@gmail.com
+**E-mail:** maks.sen.7878@gmail.com  
 **Phone:** +375(25) 902 35 29
 ***
 
