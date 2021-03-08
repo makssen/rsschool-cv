@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div {
+            max-width: 1000px;
+            margin: auto;
+            padding: 10px;
+        }
+        
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        
+        hr {
+            border: none;
+            color: #e1e4e8;
+            background-color: #e1e4e8;
+            height: 4px;
+        }
+        
+        pre {
+            overflow: auto;
+            background-color: #f6f8fa;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Maksim Siankevich</h2>
+
+        <img src="https://avatars.githubusercontent.com/u/65829190?s=460&v=4" alt="">
+
+        <hr>
+        <h4>Contacts for communication</h4>
+        <p><b>E-mail:</b> maks.sen.7878@gmail.com</p>
+        <p><b>Phone:</b> +375(25) 902 35 29</p>
+
+        <hr>
+        <h4>Goal</h4>
+        <p>Develop and improve your programming knowledge. Get enough skills to become a web developer and find a job. I consider hard work and dedication to be my strong point.</p>
+
+        <hr>
+        <h4>Skills</h4>
+        <ul>
+            <li>
+                <h4>Programming languages</h4>
+                <ul>
+                    <li>HTML5, CSS, JS;</li>
+                    <li>experience with jQuery;</li>
+                    <li>experience with PHP;</li>
+                    <li>experience with C/C++;</li>
+                    <li>experience with Delphi;</li>
+                </ul>
+            </li>
+            <li>
+                <h4>Frameworks</h4>
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>Materialize</li>
+                </ul>
+            </li>
+            <li>
+                <h4>Version control systems</h4>
+                <ul>
+                    <li>Git</li>
+                </ul>
+            </li>
+            <li>
+                <h4>Version control systems</h4>
+                <ul>
+                    <li>experience in creating an HTML page for a site based on design layouts;</li>
+                    <li>responsive website layout;</li>
+                    <li>knowledge of cross-browser layout;</li>
+                    <li>knowledge of PhotoShop and Figma;</li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr>
+        <h4>Code examples</h4>
+        <pre><code>
+            const saveLocal = (todo) =&gt; {
+                let todos;
+                if (localStorage.getItem('todos') === null) {
+                    todos = [];
+                } else {
+                    todos = JSON.parse(localStorage.getItem('todos'));
+                }
+                todos.push(todo);
+                localStorage.setItem('todos', JSON.stringify(todos));
+            }    
+        </code></pre>
+
+        <hr>
+        <h4>Experience</h4>
+        <p>Completed courses at IT-Shatle. I studied languages ​​myself.</p>
+
+        <hr>
+        <h4>Education</h4>
+        <p>Graduated from the Academy of Communications at the level of secondary specialized education. At the moment I am studying at the Academy of Communications at the level of higher education.</p>
+
+        <hr>
+        <h4>English language</h4>
+        <p>Elementary English level</p>
+    </div>
+
+</body>
+
+</html>
